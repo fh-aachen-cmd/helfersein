@@ -22,5 +22,5 @@
 				<li><a href="#">Stellenangebote</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid Das wurde gerade geändert-->
+	</div><!-- /.container-fluid -->
 </nav>
