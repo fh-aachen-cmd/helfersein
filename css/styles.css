@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	color: #333;
+}
+
+/* BOOTSTRAP */
+.jumbotron {
+	height: 300px;
+	background: url('../images/9362333059_99e483a778_o.jpg') no-repeat center center fixed transparent;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+.homepage .jumbotron {
+	height: 550px;
+}
+
+/* REGISTRY */
+.fl-registry-form {
+	background: #F7F7F7;
+	color: #999;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+
+.fl-registry-form .form-body {
+	padding: 50px 25px;
+}
+
+.fl-registry-form fieldset {
+	margin-bottom: 25px;
+}
+
+.fl-registry-form fieldset legend {
+	border-bottom: 1px solid #ccc;
+    color: #999;
+    font-size: 1.125rem;
+    line-height: 0.1em;
+    margin: 30px 0;
+}
+
+.fl-registry-form fieldset legend span {
+    background: #F7F7F7 none repeat scroll 0 0;
+    margin: 0 20px;
+    padding: 0 10px;
+}
+
+.fl-registry-form .form-group {
+    padding: 0 25px;
+}
+
+
+.fl-registry-form .control-label {
+    text-align: left;
+    font-weight: 400;
+}
+
+.fl-registry-form .control-label .mandatory {
+    color: #c00;
+}
+
+.fl-registry-form .fl-option-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fl-registry-form .fl-option-list .level_1 > li > p {
+    font-size: 1.125rem;
+    height: 46px;
+    line-height: 1.33333;
+    padding: 10px 16px;
+    text-align: center;
+    background: #333;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
